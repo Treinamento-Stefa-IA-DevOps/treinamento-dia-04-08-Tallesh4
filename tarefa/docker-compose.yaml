@@ -1,0 +1,10 @@
+#Talles Henrique De Oliveira Nadiceo
+version: '3'
+
+services:
+  api:
+    build:
+      context: ./codigo
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
